@@ -1,10 +1,13 @@
 :root {
-    --primary-light-blue: hsl(225, 100%, 94%);
-    --primary-blue: hsl(245, 75%, 52%);
+    --primary-cyan: hsl(158, 36%, 37%);
+    --primary-cream: hsl(30, 38%, 92%);
 
-    --neutral-pale-blue: hsl(225, 100%, 98%);
-    --neutral-desaturated-blue: hsl(224, 23%, 55%);
-    --neutral-dark-blue: hsl(223, 47%, 23%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey-blue: hsl(228, 12%, 48%);
+    --neutral-dark-blue: hsl(212, 21%, 14%);
+
+    --fs-norm: 0.875rem;
+    --fs-big: 1.5rem;
 }
 
 *, *::after, *::before {
