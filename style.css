@@ -1,0 +1,18 @@
+:root {
+    --primary-light-blue: hsl(225, 100%, 94%);
+    --primary-blue: hsl(245, 75%, 52%);
+
+    --neutral-pale-blue: hsl(225, 100%, 98%);
+    --neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
