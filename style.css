@@ -2,6 +2,8 @@
     --primary-cyan: hsl(158, 36%, 37%);
     --primary-cream: hsl(30, 38%, 92%);
 
+    --secondary-cyan: hsl(158, 36%, 20%);
+
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-grey-blue: hsl(228, 12%, 48%);
     --neutral-dark-blue: hsl(212, 21%, 14%);
@@ -31,8 +33,10 @@ main {
     font-family: 'Montserrat', sans-serif;
     font-size: var(--fs-norm);
     color: var(--neutral-grey-blue);
-    border-radius: 0.5em;
+    border-radius: 0.75em;
     overflow: hidden;
+    margin: auto;
+    background-color: var(--neutral-white);
 }
 
 .hero {
@@ -42,11 +46,10 @@ main {
 }
 
 .hero, .card {
-    width: 19em;
+    width: 21em;
 }
 
 .card {
-    background-color: var(--neutral-white);
     padding: 2em;
 }
 
@@ -66,7 +69,8 @@ h2 {
 }
 
 h3 {
-    letter-spacing: 0.7em;
+    letter-spacing: 0.3em;
+    font-weight: 400;
     font-size: var(--fs-norm);
 }
 
@@ -80,8 +84,33 @@ p {
     padding: 2em 0;
 }
 
+.price p {
+    text-decoration: line-through;
+}
+
 button {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
     background-color: var(--primary-cyan);
     color: var(--neutral-white);
-    padding: 1em 3em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 0.75em;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: var(--secondary-cyan);
+}
+
+.attribution { 
+    font-size: 0.625rem; 
+    margin-bottom: 0.5em;
+    color: var(--primary-cyan);
+}
+
+.attribution a {
+    color: var(--secondary-cyan); 
 }
