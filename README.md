@@ -25,9 +25,15 @@ This is a solution to the Product Preview Card Component challenge from Frontend
 * Solution URL: https://github.com/ltsyBitsy/fem-product-preview-card
 * Live Site URL: https://ltsybitsy.github.io/fem-product-preview-card/
 
+## Useful resources
+
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+
 
 ## Acknowledgements
 
+* @adityaphasu - Boots from Frontend Mentor
+* @sgarcialaguna from Frontend Mentor
 * Odin project
 * Kevin Powell
 * Frontend Mentor
