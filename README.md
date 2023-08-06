@@ -16,6 +16,7 @@ This is a solution to the Product Preview Card Component challenge from Frontend
 
 ### What I learned
 
+* Remove unnecessary fonts from previous solutions in Google fonts.
 * @media screen put at the end of css.
 * Hero image didn't work as image. Had to use it as background image.
 
