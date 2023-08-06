@@ -2,14 +2,13 @@
     --primary-cyan: hsl(158, 36%, 37%);
     --primary-cream: hsl(30, 38%, 92%);
 
-    --secondary-cyan: hsl(158, 36%, 20%);
+    --secondary-cyan: hsl(158, 40%, 25%);
 
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-grey-blue: hsl(228, 12%, 48%);
     --neutral-dark-blue: hsl(212, 21%, 14%);
 
     --fs-norm: 0.875rem;
-    /* --fs-norm: 0.75rem; */
     --fs-big: 2rem;
 }
 
@@ -113,4 +112,23 @@ button:hover {
 
 .attribution a {
     color: var(--secondary-cyan); 
+}
+
+@media screen and (max-width: 38rem) {
+    main {
+        flex-direction: column;
+    }
+    .hero {
+        background-image: url(images/image-product-mobile.jpg);
+        height: 15.5rem;
+    }
+    .hero, .card {
+        width: 25em;
+    }
+    h1 {
+        padding: 0.4em 0;
+    }
+    .card {
+        padding-top: 1em;
+    }
 }
