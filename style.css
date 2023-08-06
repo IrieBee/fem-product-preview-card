@@ -7,7 +7,8 @@
     --neutral-dark-blue: hsl(212, 21%, 14%);
 
     --fs-norm: 0.875rem;
-    --fs-big: 1.5rem;
+    /* --fs-norm: 0.75rem; */
+    --fs-big: 2rem;
 }
 
 *, *::after, *::before {
@@ -18,4 +19,69 @@
 
 body {
     min-height: 100vh;
+    background-color: var(--primary-cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fs-norm);
+    color: var(--neutral-grey-blue);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.hero {
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero, .card {
+    width: 19em;
+}
+
+.card {
+    background-color: var(--neutral-white);
+    padding: 2em;
+}
+
+h1, h2 {
+    font-family: 'Fraunces';
+}
+
+h1 {
+    color: var(--neutral-dark-blue);
+    line-height: 1;
+    padding: 1em 0;
+}
+
+h2 {
+    color: var(--primary-cyan);
+    font-size: var(--fs-big);
+}
+
+h3 {
+    letter-spacing: 0.7em;
+    font-size: var(--fs-norm);
+}
+
+p {
+    line-height: 1.5;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1.25em;
+    padding: 2em 0;
+}
+
+button {
+    background-color: var(--primary-cyan);
+    color: var(--neutral-white);
+    padding: 1em 3em;
 }
