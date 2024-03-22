@@ -6,7 +6,7 @@ This is a solution to the Product Preview Card Component challenge from Frontend
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-product-preview-card/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-product-preview-card/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -22,8 +22,8 @@ This is a solution to the Product Preview Card Component challenge from Frontend
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-product-preview-card
-* Live Site URL: https://ltsybitsy.github.io/fem-product-preview-card/
+* Solution URL: https://github.com/IrieBee/fem-product-preview-card
+* Live Site URL: https://IrieBee.github.io/fem-product-preview-card/
 
 ## Useful resources
 
